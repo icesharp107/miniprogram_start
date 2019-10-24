@@ -1,0 +1,8 @@
+<!--pages/hello/hello.wxml-->
+<text>pages/hello/hello.wxml</text>
+<button bindtap="handleBrnClick">{{message}}</button>
+<button size="mini" 
+bindgetuserinfo="hangleGetUserInfo" 
+open-type="getUserInfo"
+>获取用户授权</button>
+<open-data type="userNickName"></open-data>
